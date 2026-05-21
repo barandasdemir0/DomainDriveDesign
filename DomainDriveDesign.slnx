@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="DomainDriveDesign.ConsoleApplication/DomainDriveDesign.ConsoleApplication.csproj" Id="58a2e57b-14df-4b05-aa2d-2235c1a1b51f" />
   <Project Path="DomainDriveDesign.Domain/DomainDriveDesign.Domain.csproj" />
 </Solution>
