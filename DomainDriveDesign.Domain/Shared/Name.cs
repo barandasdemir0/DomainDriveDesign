@@ -1,4 +1,4 @@
-﻿namespace DomainDriveDesign.Domain.Users;
+﻿namespace DomainDriveDesign.Domain.Shared;
 
 public sealed record Name
 {

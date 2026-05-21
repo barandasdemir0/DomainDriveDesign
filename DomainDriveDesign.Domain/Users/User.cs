@@ -1,4 +1,5 @@
 ﻿using DomainDriveDesign.Domain.Abstraction;
+using DomainDriveDesign.Domain.Shared;
 
 namespace DomainDriveDesign.Domain.Users;
 
