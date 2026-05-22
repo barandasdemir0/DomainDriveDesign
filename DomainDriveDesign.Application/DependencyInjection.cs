@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using DomainDriveDesign.Domain.Abstraction;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Reflection;
@@ -12,7 +13,7 @@ public static class DependencyInjection
     {
         service.AddMediatR(cfr =>
         {
-            cfr.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly());
+            cfr.RegisterServicesFromAssemblies(Assembly.GetExecutingAssembly(),typeof(Entity).Assembly);
         });
         return service;
     }
