@@ -2,4 +2,5 @@
   <Project Path="DomainDriveDesign.Application/DomainDriveDesign.Application.csproj" Id="5614061c-7fc3-4d91-a661-5d1c696b0e61" />
   <Project Path="DomainDriveDesign.ConsoleApplication/DomainDriveDesign.ConsoleApplication.csproj" Id="58a2e57b-14df-4b05-aa2d-2235c1a1b51f" />
   <Project Path="DomainDriveDesign.Domain/DomainDriveDesign.Domain.csproj" />
+  <Project Path="DomainDriveDesign.Infrastructure/DomainDriveDesign.Infrastructure.csproj" Id="8ded4328-099f-4c72-b0e3-29f7372efbda" />
 </Solution>

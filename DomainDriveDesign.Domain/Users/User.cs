@@ -18,7 +18,7 @@ public sealed class User : Entity
     public Password Password { get; private set; }
     public Address Address { get; private set; }
 
-    public static User CreateUser(string name,string email,string password,Address address, string country, string city, string street, string postalCode, string fullAddress)
+    public static User CreateUser(string name,string email,string password, string country, string city, string street, string postalCode, string fullAddress)
     {
         User user = new(
             id: Guid.NewGuid(),
