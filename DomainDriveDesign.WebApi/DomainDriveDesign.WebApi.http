@@ -1,0 +1,6 @@
+@DomainDriveDesign.WebApi_HostAddress = http://localhost:5010
+
+GET {{DomainDriveDesign.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
